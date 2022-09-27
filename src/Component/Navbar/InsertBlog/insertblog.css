@@ -1,0 +1,126 @@
+.insertblogg {
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.contaiber_div_ins {
+    margin-top: 90px;
+}
+
+.blog_div {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid grey;
+}
+
+.lable_div {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.blog_btn_icon_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#icon_blog {
+    cursor: pointer;
+}
+
+.blog_priv {
+    border: 2px solid gray;
+    width: 120px !important;
+    height: 35px !important;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+    background: none;
+}
+
+.bblog_priv {
+    color: rgb(89, 89, 89);
+}
+
+.bblog_priv:hover {
+    color: rgb(89, 89, 89);
+}
+
+.loading {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto;
+}
+
+.form_control {
+    width: 350px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.edit_blog_btn {
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+}
+
+.edit_btn {
+    color: black !important;
+}
+
+@media screen and (max-width:1497px) {
+    .insertblogg {
+        width: 100%;
+        min-height: 120vh;
+    }
+}
+@media screen and (max-width:1199px) {
+    .form_control {
+        width: 290px !important;
+    }
+}
+@media screen and (max-width:991px) {
+    .form_control {
+        width: 270px !important;
+    }
+}
+@media screen and (max-width:466px) {
+    .blog_in_ed_div{
+        text-align: center;
+    }
+}
+@media screen and (max-width:767px) {
+    .row_insrt_blog_div{
+        flex-direction: column-reverse;
+    }
+    .form_control {
+        width: 510px !important;
+    }
+    .insertblogg {
+        padding-bottom: 30px;
+    }
+    .insertblog {
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:575px) {
+    .form_control {
+        width: 100% !important;
+    }
+}

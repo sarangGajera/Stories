@@ -1,0 +1,147 @@
+.holidayseasons{
+    margin-top: 80px;
+}
+.Holiday{
+    color: black;
+}
+.imgg_divs {
+    background-image: url(../../../public/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    width: 100%;
+    height: 510px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.foods_div h6{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.foods_div{
+    padding: 0 30px 0 30px;
+}
+.imgg_divs button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lifestyle_img button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lifestyle_img {
+    background-image: url(../../../public/images/lily-banse--YHSwy6uqvk-unsplash.jpg);
+    width: 100%;
+    height: 510px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.foods {
+    background-image: url(../../../public/images/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.foods .lifestyle .others, h1{
+    color: white;
+}
+
+.lifestyle {
+    background-image: url(../../../public/images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg);
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.others {
+    background-image: url(../../../public/images/rachel-park-hrlvr2ZlUNk-unsplash.jpg);
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cards_divv{
+ height: 85px;
+ background-color: #f7f7f7;
+ border-radius: 5px 5px 0 0; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+}
+.cards_divv h1{
+    color: black;
+}
+
+@media screen and (max-width:754px) {
+    .Holiday{
+        margin-top: 120px;
+    }
+    .imgg_divs {
+        width: 100%;
+        height: 360px;
+        margin-top: 20px;
+    }
+    .lifestyle_img {
+        width: 100%;
+        height: 360px;
+        margin-top: 20px;
+    }
+    .cards_divv{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:486px) {
+    .dot_div{
+        display: none;
+    }
+    .Holiday{
+        text-align: center;
+    }
+}

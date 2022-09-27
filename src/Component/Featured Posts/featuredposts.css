@@ -1,0 +1,116 @@
+.featuredposts{
+    margin-top: 100px;
+}
+.featured_img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.cards{
+    margin-top: 80px !important;
+}
+.read_div_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 170px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  top: 0;
+  border-radius: 5px;
+}
+.read_div_button:hover{
+    background-color: orangered;
+}
+.readd_diiv_button{
+    color: white;
+}
+.readd_diiv_button:hover{
+    color: white;
+}
+
+.featured_div{
+    font-weight: bold;
+}
+
+.about_divv h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.about_divv p{
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+}
+
+.tasty_div_p{
+    font-size: 18px;
+}
+
+@media screen and (max-width:646px) {
+    .featured_div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+    }
+    .cards{
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width:423px) {
+    .featured_img{
+        width: 100%;
+        height: 200px;
+    }
+    .tasty_div_p{
+        text-align: center;
+    }
+    .read_div_button{
+        margin: 0 auto;
+    }
+}
+
+.btn_success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background: none;
+}
+.btn_success:hover{
+    background-color: navy;
+    border: none;
+    color: white;
+}
+.title_div_main{
+    background-color:ghostwhite;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 5px;
+}
+.line_hr{
+    background-color: rgb(219, 219, 219);
+}
+.blog_card_text{
+    font-weight: bold;
+}
+
+.boolmark_icons{
+    cursor: pointer;
+}

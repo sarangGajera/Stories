@@ -1,0 +1,50 @@
+.aboutus{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../public/images/olivie-strauss-OnFb80Dtbtc-unsplash.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abou_divv{
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 80px;
+}
+.link_div{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.link_home{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_home:hover{
+    color: orangered;
+}
+
+.about_link{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+@media screen and (max-width:368px) {
+    .abou_divv{
+        height: 35vh;
+        font-size: 60px;
+        text-align: center;
+    }
+}

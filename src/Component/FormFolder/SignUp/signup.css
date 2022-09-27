@@ -1,0 +1,225 @@
+.sign_up_div {
+    background-color: #eef5db;
+    width: 100%;
+    height: 100vh;
+}
+
+.sign_up_from_div {
+    width: 100%;
+    height: 100vh;
+    background-color: #fe5f55;
+}
+
+.img_div_logo {
+    text-align: center;
+}
+
+.img_div_logo img {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.div_textt {
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.img_div_logoo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img_div_logoo img {
+    height: 260px;
+}
+
+
+.link_buttonn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 25px 0 0;
+}
+
+.sign_in_buttonn {
+    background-color: #eef5db;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 0 0 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.sign_up_buttonn {
+    background-color: darkblue;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+    color: white;
+    font-weight: bold;
+}
+.sign_up_buttonn:hover{
+    color: white;
+}
+.sign_in_buttonn:hover{
+    color: black;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+}
+.ant-form-item-label > label::after {
+    display: none;
+}
+
+.signn_in_buttonn{
+    display: flex;
+    border: 2px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: none;
+    transition: 0.8s;
+}
+.signn_in_buttonn:hover{
+    border: 2px solid black;
+    color: black;
+}
+.login_div_textt{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.ant-form-item-explain-error {
+    color: black;
+}
+
+.grroup_from{
+    width: 200px;
+}
+.conntrol_input{
+    width: 190px;
+    border-radius: 5px !important;
+}
+.form-select{
+    width: 190px;
+    height: 39px;
+    outline: none !important;
+    border-radius: 5px !important;
+}
+
+.fromm_divv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto;
+}
+
+@media screen and (max-width:1497px) {
+    .fromm_divv{
+        margin: 100px auto;
+    }
+    .sign_up_div {
+        height: 120vh;
+    }
+    .sign_up_from_div {
+        height: 120vh;
+    }
+}
+@media screen and (max-width:1237px) {
+    .input_group_div{
+        flex-direction: column;
+        display: flex !important;
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+        display: block !important;
+    }
+    .conntrol_input{
+        width: 400px !important;
+    }
+    .fromm_divv{
+        margin: 50px auto;
+    }
+    .sign_up_from_div {
+        height: 180vh;
+    }
+}
+@media screen and (max-width:812px) {
+    .conntrol_input{
+        width: 300px !important;
+    }
+    .form_sign_updivv{
+        width: 300px;
+    }
+    .signn_in_buttonn{
+        width: 200px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:766px) {
+    .conntrol_input{
+        width: 500px !important;
+    }
+    .form_sign_updivv{
+        width: 500px;
+    }
+}
+@media screen and (max-width:521px) {
+    .conntrol_input{
+        width: 400px !important;
+    }
+    .form_sign_updivv{
+        width: 400px;
+    }
+}
+@media screen and (max-width:521px) {
+    .conntrol_input{
+        width: 300px !important;
+    }
+    .form_sign_updivv{
+        width: 300px;
+    }
+}
+@media screen and (max-width:521px) {
+    .conntrol_input{
+        width: 300px !important;
+    }
+    .form_sign_updivv{
+        width: 300px;
+    }
+}
+@media screen and (max-width:307px) {
+    .conntrol_input{
+        width: 240px !important;
+    }
+    .form_sign_updivv{
+        width: 240px;
+    }
+}
+@media screen and (max-width:326px) {
+    .logup_div_textt{
+        text-align: center;
+    }
+    .sign_up_from_div {
+        height: 185vh;
+    }
+}
+@media screen and (max-width:261px) {
+    .img_div_logoo img {
+        width: 100% !important;
+        height: 260px;
+    }
+}

@@ -1,0 +1,134 @@
+.nav-link {
+   padding: 0 40px 0 0 !important;
+}
+
+.navbar-brand {
+   font-weight: 1000;
+   font-size: 27px;
+   color: black;
+}
+
+.dott_div {
+   font-size: 30px;
+   color: #ffd615;
+}
+
+.nav-link {
+   font-weight: 500;
+}
+
+.navbar {
+   padding: 20px 0 20px 0;
+}
+.navv_pro{
+   font-weight: 600;
+}
+
+.nav_prroo{
+   background-color: #fe5f55;
+   border: 2px solid #fe5f55;
+   padding: 7px 15px 7px 15px;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+}
+.nav_prroo:hover{
+   padding: 7px 15px 7px 15px;
+   border: 2px solid #fe5f55;
+   background: none;
+   color: #fe5f55;
+}
+
+.item{
+   text-decoration: none !important;
+   list-style: none;
+}
+.item_div{
+   color: gray;
+   margin-top: 9px;
+}
+.item_div:hover{
+   color: rgb(80, 80, 80);
+}
+.icons_male{
+   color: gray;
+   font-size: 30px !important;
+   background-color: rgb(224, 224, 224);
+   width: 40px !important;
+   height: 40px !important;
+   border-radius: 50%;
+}
+
+.logo_div_imgs{
+   width: 160px;
+   height: 60px;
+}
+.menuu_link{
+   font-weight: 500;
+}
+
+@media screen and (max-width:991px) {
+   .navbar-toggler{
+      margin-left: 250px;
+   }
+}
+@media screen and (max-width:990px) {
+   .nav-link {
+      padding: 10px 40px 0 0 !important;
+   }
+   .item_div{
+      color: gray;
+      margin-top: 0px;
+   }
+}
+@media screen and (max-width:768px) {
+   .navbar-toggler{
+      margin-left: 90px;
+   }
+}
+@media screen and (max-width:493px) {
+   .navbar-toggler{
+      margin-left: 70px;
+   }
+}
+@media screen and (max-width:463px) {
+   .navbar-toggler{
+      margin-left: 50px;
+   }
+   .icons_male{
+      font-size: 27px !important;
+      width: 38px !important;
+      height: 38px !important;
+   }
+}
+@media screen and (max-width:443px) {
+   .navbar-toggler{
+      margin-left:30px;
+   }
+}
+@media screen and (max-width:423px) {
+   .navbar-toggler{
+      margin-left: 10px;
+   }
+   .icons_male{
+      font-size: 25px !important;
+      width: 35px !important;
+      height: 35px !important;
+   }
+}
+@media screen and (max-width:402px) {
+   .navbar-toggler{
+      margin-left: 0px;
+   }
+}
+@media screen and (max-width:377px) {
+   .pro_log_div{
+      margin-top: 15px;
+   }
+}
+
+.navbar-toggler{
+   border: none;
+   background: none;
+   outline: none !important;
+}

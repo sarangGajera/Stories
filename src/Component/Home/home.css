@@ -1,0 +1,150 @@
+.img_slider {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+
+.love_div {
+    width: 100%;
+    height: 680px;
+    background-color: #ffd615;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+}
+.love_div h6{
+    color: #a59b10;
+}
+.love_div h1{
+    font-weight: 1000;
+    font-size: 65px;
+}
+.love_div h1::after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-top: 18px;
+}
+.love_div p{
+    color:#85700a ;
+    font-size: 22px;
+}
+.readmore_button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore_button:hover{
+    background-color: orangered;
+}
+.icon_right_div{
+    font-size: 20px;
+}
+.button_main_div{
+    margin-top: 45px;
+}
+.forward_button{
+   width: 206px;
+   height: 80px;
+   font-weight: bold;
+   font-size: 24px;
+   color: #999999;
+   border: 1px solid gray;
+}
+.next_button{
+    width: 206px;
+    height: 80px;
+    font-weight: bold;
+   font-size: 24px;
+   color: #999999;
+   border: 1px solid gray;
+}
+.next_button:hover{
+    background-color: black;
+    color: white;
+}
+.forward_button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width:1199px) {
+    .love_div h1{
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .forward_button{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+     }
+     .next_button{
+         width: 150px;
+         height: 80px;
+        font-size: 20px;
+     }
+}
+@media screen and (max-width:991px) {
+    .love_div h1{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .forward_button{
+       display: none;
+     }
+     .next_button{
+        display: none;
+     }
+}
+@media screen and (max-width:767px) {
+    .img_slider {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .love_div {
+        width: 100%;
+        height:480px;
+    }
+}
+@media screen and (max-width:379px) {
+    .love_div {
+        text-align: center;
+        height:600px;
+    }
+    .readmore_button{
+        margin: 0 auto;
+    }
+    .love_div h6{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:264px) {
+    .love_div {
+        text-align: center;
+        height:580px;
+    }
+    .readmore_button{
+        margin: 0 auto;
+    }
+    .love_div h1{
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .love_div h6{
+        margin-top: 30px;
+    }
+}

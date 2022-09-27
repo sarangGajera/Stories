@@ -1,0 +1,44 @@
+.subcribe{
+    background-color: rgb(242, 242, 242);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcribe_div{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small_div{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.input_subscribe{
+    text-align: center;
+    margin-top: 30px;
+}
+.subscribe_button{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 5px 5px 0 !important;
+}
+.subscribe_button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+input{
+    outline: none !important;
+    border-radius: 5px 0 0 5px !important;
+}
+
+@media screen and (max-width:529px) {
+    .dot_div{
+        display: none;
+    }
+}

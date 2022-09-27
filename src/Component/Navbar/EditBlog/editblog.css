@@ -1,0 +1,81 @@
+.insertblog {
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.blog_div {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid grey;
+}
+
+.lable_div {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.blog_btn_icon_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#icon_blog {
+    cursor: pointer;
+}
+
+.blog_priv {
+    border: 2px solid gray;
+    width: 120px !important;
+    height: 35px !important;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+    background: none;
+}
+
+.bblog_priv {
+    color: rgb(89, 89, 89);
+}
+
+.bblog_priv:hover {
+    color: rgb(89, 89, 89);
+}
+.loading{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto;
+}
+.form_control{
+    width: 350px;
+}
+.edit_blog_btn{
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+}
+.edit_btn{
+    color: black !important;
+}
+
+@media screen and (max-width:1497px) {
+    .insertblog {
+        width: 100%;
+        min-height: 130vh;
+    }
+}
