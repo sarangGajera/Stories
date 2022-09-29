@@ -1,8 +1,43 @@
-export const stories = [
+export const storiess = [
     {
         images: "/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg",
         title: "Dessert March 01, 2018",
         text:"Tasty & Delicious Foods"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"hello",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
+    },
+    {
+        images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",
+        title:"Dessert March 01, 2018",
+        text:"Tasty & Delicious Foods from Scotland"
     },
     {
         images: "/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg",

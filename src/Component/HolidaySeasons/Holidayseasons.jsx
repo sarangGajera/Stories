@@ -43,7 +43,7 @@ const Holidayseasons = () => {
                     </div>
                     <div className='col-md-4 col-sm-12'>
                         <div className='cards_divv'><h1 className='m-0'>Categories</h1></div>
-                        <div className='foods'><Link to="/foodpage"><h1>Foods</h1></Link></div>
+                        <div className='foods'><Link to="/foods"><h1>Foods</h1></Link></div>
                         <div className='lifestyle'><h1>Lifestyle</h1></div>
                         <div className='others'><h1>Others</h1></div>
                     </div>
