@@ -93,7 +93,7 @@ const Insertblog = () => {
                             <div className='container-fluid'>
                                 <div className='col-md-12 p-1'>
                                     <div className='mt-2'>
-                                        <Link to="/" className="back_btnn"><ArrowLeftOutlined className='back_btn' /></Link>
+                                        <Link to="/routesfolder" className="back_btnn"><ArrowLeftOutlined className='back_btn' /></Link>
                                     </div>
                                 </div>
                             </div>

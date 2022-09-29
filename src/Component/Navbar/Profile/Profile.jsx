@@ -167,7 +167,7 @@ const Profile = () => {
                                             <div className='row'>
                                                 <div className='col-md-12'>
                                                     <div className='update_btn'>
-                                                        <Link to="/" className='back_btnn contact_buttonn'><HomeOutlined className='back_btn' /></Link>
+                                                        <Link to="/routesfolder" className='back_btnn contact_buttonn'><HomeOutlined className='back_btn' /></Link>
                                                         <button onClick={editTogg} className='contact_buttonn'><EditOutlined /></button>
                                                     </div>
                                                 </div>

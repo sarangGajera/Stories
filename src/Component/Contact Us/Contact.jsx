@@ -44,7 +44,7 @@ const Contact = () => {
                     toast.success("You have contacted us. It has reached us. We will fully maintain the confidentiality of your information.", {
                         position: "top-center"
                     })
-                    Navigate("/")
+                    Navigate("/routesfolder")
                 }
                 setUsecon({
                     name: "",
@@ -76,7 +76,7 @@ const Contact = () => {
                             <div className='contact_div_main'>
                                 <h1 className='text-center display-3 font-weight-bold heading_text_div'>Contact Us</h1>
                                 <div className='link_div'>
-                                    <Link className="link_home" to="/">Home <RightOutlined /></Link>
+                                    <Link className="link_home" to="/routesfolder">Home <RightOutlined /></Link>
                                     <p className='about_link'>About us <RightOutlined /></p>
                                 </div>
                             </div>

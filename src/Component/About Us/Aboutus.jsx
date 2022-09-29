@@ -44,7 +44,7 @@ const Aboutus = () => {
                   <div className='col-md-12'>
                     <h1 className='abou_divv'>About Us</h1>
                     <div className='link_div'>
-                      <NavLink className="link_home" to="/">Home <RightOutlined /></NavLink>
+                      <NavLink className="link_home" to="/routesfolder">Home <RightOutlined /></NavLink>
                       <p className='about_link'>About us <RightOutlined /></p>
                     </div>
                   </div>

@@ -1,17 +1,6 @@
 import React from 'react'
 import './subcribe.css'
-import {
-    AutoComplete,
-    Button,
-    Cascader,
-    Col,
-    DatePicker,
-    Input,
-    InputNumber,
-    Row,
-    Select,
-    Tooltip,
-} from 'antd';
+import {Button,Input,} from 'antd';
 
 const Subcribe = () => {
     return (

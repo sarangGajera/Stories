@@ -15,6 +15,7 @@ import Editblog from './Component/Navbar/EditBlog/Editblog';
 import Recentpage from './Component/Pages/RecentPage/Recentpage';
 import { ToastContainer } from 'react-toastify';
 import Homefinger from './Component/homefinger/Homefinger';
+import Foodpage from './Component/Pages/Foodpage/Foodpage';
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='/blogpages/:id' element={<Blogpages/>}/>
         <Route path='/editblog/:id' element={<Editblog/>}/>
         <Route path='/recentpage/:id' element={<Recentpage/>}/>        
+        <Route path='/foodpage' element={<Foodpage/>}/>
       </Routes>
       <ToastContainer/>
     </>
