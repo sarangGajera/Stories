@@ -75,7 +75,7 @@ const Footer = () => {
 
                 <div className='row'>
                     <div className='col-md-12 text-center'>
-                        <p className='copyright_footer'>Copyright ©{year} All rights reserved | This template is made with ❤️ by Colorlib</p>
+                        <p className='copyright_footer'>Copyright ©{year} All rights reserved | This template is made with ❤️ by </p>
                     </div>
                 </div>
 

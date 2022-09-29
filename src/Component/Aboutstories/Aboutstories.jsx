@@ -78,7 +78,7 @@ const Aboutstories = () => {
                             <div className='col-md-6 col-sm-12'>
                                 <div className='box_div'>
                                     <h1 className='years_experi'>{timeblog}</h1>
-                                    {/* <p className='years_experie'>{timelog}</p> */}
+                                    <p className='years_experie'>Day</p>
                                 </div>
                             </div>
                             <div className='col-md-6 col-sm-12'>

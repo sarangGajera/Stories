@@ -53,7 +53,7 @@ const Recent = () => {
                   return (
                     <div key={ind} className='col-md-6 mt-4'>
                       <div>
-                        <img className='img_divv imgg_div' src="/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt='images' />
+                        <img className='imgg_divv imgg_div' src="/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt='images' />
                         <div className='lateblog_div'>
                           <h5 className='deseert m-0'>{eve.blogTitle}</h5>
                           <h4 className='m-0'>{eve.category}</h4>

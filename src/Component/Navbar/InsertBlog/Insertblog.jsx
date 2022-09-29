@@ -55,7 +55,7 @@ const Insertblog = () => {
                     setLoading(true)
                     setTimeout(() => {
                         setLoading(false)
-                        Navigate("/")
+                        Navigate("/routesfolder")
                     }, 900)
                 }
                 setIblog({

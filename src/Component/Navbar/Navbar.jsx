@@ -20,7 +20,7 @@ const Navbar = () => {
     const haandleClose = () => {
         localStorage.removeItem("signin_token")
         localStorage.removeItem("signin_iduser")
-        Navigate("/")
+        Navigate("/routesfolder")
     }
 
     // const str = "This";
@@ -61,15 +61,15 @@ const Navbar = () => {
         <div>
             <div className='container'>
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <NavLink className="navbar-brand" to="/"><img src='/images/n.png' className='logo_div_imgs' alt='images' /></NavLink>
+                    <NavLink className="navbar-brand d-flex" to="/routesfolder">Cofer<div className='dot_div'></div></NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <AlignLeftOutlined />
+                        <AlignLeftOutlined />
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/">Home</NavLink>
+                                <NavLink className="nav-link" to="/routesfolder">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/aboutus">About</NavLink>
@@ -83,41 +83,39 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
+                            <li className="nav-item">
+                                <div className='pro_log_div'>
+                                    {
+                                        (x == null && z == null) ?
+                                            <div className='login_btn_nav'><NavLink className='m-0 nav_pro nav_prroo' to="/signin">Login</NavLink></div>
+                                            :
+                                            <div className='d-flex'>
+                                                <div>
+                                                    <Dropdown overlay={menuu}>
+                                                        <Typography.Link>
+                                                            <Space className='item_div nav-link'>
+                                                                Blog
+                                                                <DownOutlined />
+                                                            </Space>
+                                                        </Typography.Link>
+                                                    </Dropdown>
+                                                </div>
+
+                                                <div>
+                                                    <Dropdown overlay={menu}>
+                                                        <Typography.Link>
+                                                            <Space>
+                                                                <BoyIcon className='icons_male' />
+                                                            </Space>
+                                                        </Typography.Link>
+                                                    </Dropdown>
+                                                </div>
+                                            </div>
+                                    }
+                                </div>
+                            </li>
                         </ul>
 
-                    </div>
-                    <div className='pro_log_div'>
-                        {
-                            (x == null && z == null) ?
-                                <div><NavLink className='m-0 nav_pro nav_prroo' to="/signin">Login</NavLink></div>
-                                :
-                                <div className='d-flex'>
-                                    <div>
-                                    <Dropdown overlay={menuu}>
-                                            <Typography.Link>
-                                                <Space className='item_div nav-link'>
-                                                Blog
-                                                <DownOutlined />
-                                                </Space>
-                                            </Typography.Link>
-                                        </Dropdown>
-                                    </div>
-
-                                    <div>
-                                        <Dropdown overlay={menu}>
-                                            <Typography.Link>
-                                                <Space>
-                                                <BoyIcon className='icons_male' />
-                                                </Space>
-                                            </Typography.Link>
-                                        </Dropdown>
-                                    </div>
-
-
-
-
-                                </div>
-                        }
                     </div>
                 </nav>
             </div>

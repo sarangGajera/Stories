@@ -14,6 +14,7 @@ import Blogpages from './Component/Pages/Blogpage/Blogpages';
 import Editblog from './Component/Navbar/EditBlog/Editblog';
 import Recentpage from './Component/Pages/RecentPage/Recentpage';
 import { ToastContainer } from 'react-toastify';
+import Homefinger from './Component/homefinger/Homefinger';
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
 
 
       <Routes>
-        <Route exact path='/' element={<Routesfolder/>}/>
+        <Route exact path='/' element={<Homefinger/>}/>
+        <Route exact path='/routesfolder' element={<Routesfolder/>}/>
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path='/foods' element={<Foods/>}/>
         <Route path='/lifestyle' element={<Lifestyle/>}/>

@@ -67,7 +67,7 @@ const Signin = () => {
                     setLoading(true)
                     setTimeout(() => {
                         setLoading(false)
-                        Navigate("/")
+                        Navigate("/routesfolder")
                     }, 900)
                     localStorage.setItem("signin_token", res.data.token)
                     localStorage.setItem("signin_iduser", res.data.data)

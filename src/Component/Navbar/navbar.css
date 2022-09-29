@@ -45,7 +45,6 @@
 }
 .item_div{
    color: gray;
-   margin-top: 9px;
 }
 .item_div:hover{
    color: rgb(80, 80, 80);
@@ -68,65 +67,27 @@
 }
 
 @media screen and (max-width:991px) {
-   .navbar-toggler{
-      margin-left: 250px;
-   }
-}
-@media screen and (max-width:990px) {
    .nav-link {
       padding: 10px 40px 0 0 !important;
    }
-   .item_div{
-      color: gray;
-      margin-top: 0px;
-   }
-}
-@media screen and (max-width:768px) {
-   .navbar-toggler{
-      margin-left: 90px;
-   }
-}
-@media screen and (max-width:493px) {
-   .navbar-toggler{
-      margin-left: 70px;
+   .login_btn_nav{
+      margin-top: 18px;
    }
 }
 @media screen and (max-width:463px) {
-   .navbar-toggler{
-      margin-left: 50px;
-   }
    .icons_male{
       font-size: 27px !important;
       width: 38px !important;
       height: 38px !important;
    }
 }
-@media screen and (max-width:443px) {
-   .navbar-toggler{
-      margin-left:30px;
-   }
-}
 @media screen and (max-width:423px) {
-   .navbar-toggler{
-      margin-left: 10px;
-   }
    .icons_male{
       font-size: 25px !important;
       width: 35px !important;
       height: 35px !important;
    }
 }
-@media screen and (max-width:402px) {
-   .navbar-toggler{
-      margin-left: 0px;
-   }
-}
-@media screen and (max-width:377px) {
-   .pro_log_div{
-      margin-top: 15px;
-   }
-}
-
 .navbar-toggler{
    border: none;
    background: none;
