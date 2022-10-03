@@ -1,0 +1,22 @@
+.img_cards{
+   width: 60%;
+   height: 200px;
+   margin: 0 auto;
+}
+.card_body{
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+}
+
+@media screen and (max-width:767px) {
+    .img_cards{
+        width: 40%;
+        height: 200px;
+     }
+}
+@media screen and (max-width:533px) {
+    .img_cards{
+        width: 200px;
+        height: 200px;
+     }
+}
