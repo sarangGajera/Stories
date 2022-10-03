@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-6 col-lg-3 col-sm-6'>
-                        <h4 className='inform_div infoorm_div'>Stories</h4>
+                        <h4 className='inform_div infoorm_div'>Cofer</h4>
                         <div className='terms_div'>
                             <p>
                                 Far far away, behind the word <br /> mountains, far from the countries <br /> Vokalia and Consonantia, there <br /> live the blind texts.
@@ -75,7 +75,7 @@ const Footer = () => {
 
                 <div className='row'>
                     <div className='col-md-12 text-center'>
-                        <p className='copyright_footer'>Copyright ©{year} All rights reserved | This template is made with ❤️ by </p>
+                        <p className='copyright_footer'>Copyright ©{year} All rights reserved | This template is made with ❤️ by Cofer</p>
                     </div>
                 </div>
 

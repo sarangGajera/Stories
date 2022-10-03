@@ -16,6 +16,7 @@ import { ToastContainer } from 'react-toastify';
 import Homefinger from './Component/homefinger/Homefinger';
 import Foodpage from './Component/Pages/Foodpage/Foodpage';
 import Blogar from './Component/Blogar/Blogar';
+import Bloguserprofile from './Component/Blogar/Bloguserprofile/Bloguserprofile';
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
         <Route exact path='/routesfolder' element={<Routesfolder/>}/>
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path='/foods' element={<Foods/>}/>
-        <Route path='/blogar' element={<Blogar/>}/>
+        <Route path='/blogger' element={<Blogar/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/profile' element={<Profile/>}/>
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/editblog/:id' element={<Editblog/>}/>
         <Route path='/recentpage/:id' element={<Recentpage/>}/>        
         <Route path='/foodpage' element={<Foodpage/>}/>
+        <Route path='/bloguserprofile/:id' element={<Bloguserprofile/>}/>
       </Routes>
       <ToastContainer/>
     </>

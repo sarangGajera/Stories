@@ -81,7 +81,7 @@ const Navbar = () => {
                                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/blogar">Blogar</NavLink>
+                                <NavLink className="nav-link" to="/Blogger">Blogger</NavLink>
                             </li>
                             <li className="nav-item">
                                 <div className='pro_log_div'>
