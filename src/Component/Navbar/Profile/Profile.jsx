@@ -49,7 +49,7 @@ const Profile = () => {
 
 
 
-    const [hello, setHello] = useState({
+    const [profileuser, setProfileuser] = useState({
         userName: "",
         age: "",
         city: "",
@@ -60,7 +60,7 @@ const Profile = () => {
         const name = event.target.name
         const value = event.target.value
 
-        setHello({ ...hello, [name]: value })
+        setProfileuser({ ...profileuser, [name]: value })
     }
 
     const onSubmittedit = async (event) => {
@@ -69,7 +69,7 @@ const Profile = () => {
 
 
 
-        await axios.put(`${BaseUrl}/user/updateUserData/${x}`, hello)
+        await axios.put(`${BaseUrl}/user/updateUserData/${x}`, profileuser)
             .then((res) => {
                 // console.log(res);
                 if (res.data.status === 200) {
@@ -86,7 +86,7 @@ const Profile = () => {
         await axios.get(`${BaseUrl}/user/getUserById/${x}`, config)
             .then((res) => {
                 // console.log("ttttttt", res.data.data);
-                setHello(res.data.data)
+                setProfileuser(res.data.data)
             })
             .catch((error) => {
                 // console.log("bbbbbbb", error);
@@ -348,13 +348,13 @@ const Profile = () => {
                                                                 <h6 className='name_divv'>Name:</h6>
 
                                                                 <p>
-                                                                    <input type="text" name='userName' value={hello.userName} onChange={onchaedit} className='input_edit_in' id="fname" />
+                                                                    <input type="text" name='userName' value={profileuser.userName} onChange={onchaedit} className='input_edit_in' id="fname" />
                                                                 </p>
                                                             </div>
                                                             <div>
                                                                 <h6 className='name_divv'>Age:</h6>
                                                                 <p>
-                                                                    <input type="tel" name='age' value={hello.age} onChange={onchaedit} className="input_edit_in" style={{ width: "30px" }} maxLength="3" minLength="2"
+                                                                    <input type="tel" name='age' value={profileuser.age} onChange={onchaedit} className="input_edit_in" style={{ width: "30px" }} maxLength="3" minLength="2"
                                                                         onKeyPress={(event) => {
                                                                             if (!/[0-9]/.test(event.key)) {
                                                                                 event.preventDefault();
@@ -367,7 +367,7 @@ const Profile = () => {
                                                                 <h6 className='name_divv'>Location:</h6>
                                                                 <p>
                                                                     <div className="form-group">
-                                                                        <input type="text" name='city' value={hello.city} onChange={onchaedit} style={{ width: "100px" }} className='input_edit_in' id="fname" />
+                                                                        <input type="text" name='city' value={profileuser.city} onChange={onchaedit} style={{ width: "100px" }} className='input_edit_in' id="fname" />
                                                                     </div>, The Netherlands, Earth
                                                                 </p>
 
@@ -385,7 +385,7 @@ const Profile = () => {
                                                         <h3 className='details_div'>About me</h3>
                                                         <p className='ipsum_div'>
                                                             <div class="ffoorm_group">
-                                                                <textarea name='aboutme' value={hello.aboutme} onChange={onchaedit} id="text_area" className='input_edit_in' rows="10" cols="50" />
+                                                                <textarea name='aboutme' value={profileuser.aboutme} onChange={onchaedit} id="text_area" className='input_edit_in' rows="10" cols="50" />
                                                                 <button className='contact_button'>Submit</button>
                                                             </div>
                                                         </p>

@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router-dom';
 import Aboutus from './Component/About Us/Aboutus';
 import Routesfolder from './Component/RoutesFolder/Routesfolder';
 import Foods from './Component/Foods/Foods';
-import Lifestyle from './Component/Lifestyle/Lifestyle';
 import Contact from './Component/Contact Us/Contact';
 import Signin from './Component/FormFolder/Signin/Signin';
 import Signup from './Component/FormFolder/SignUp/Signup';
@@ -16,6 +15,7 @@ import Recentpage from './Component/Pages/RecentPage/Recentpage';
 import { ToastContainer } from 'react-toastify';
 import Homefinger from './Component/homefinger/Homefinger';
 import Foodpage from './Component/Pages/Foodpage/Foodpage';
+import Blogar from './Component/Blogar/Blogar';
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
         <Route exact path='/routesfolder' element={<Routesfolder/>}/>
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path='/foods' element={<Foods/>}/>
-        <Route path='/lifestyle' element={<Lifestyle/>}/>
+        <Route path='/blogar' element={<Blogar/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/profile' element={<Profile/>}/>

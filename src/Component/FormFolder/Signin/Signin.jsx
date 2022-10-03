@@ -18,13 +18,6 @@ const Signin = () => {
         password: ""
     })
 
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            setLoading(false)
-        }, 900)
-    }, [])
-
     const signinlogin = (event) => {
         const name = event.target.name
         const value = event.target.value
@@ -89,66 +82,49 @@ const Signin = () => {
     }
 
     return (
-        <div>
-            {
-                loading ?
-
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-md-12'>
-                                <div className='loading'>
-                                    <ClipLoader size={60} />
-                                </div>
+        <div className="container-fluid overflow-hidden">
+            <div className="row row_signin_pagess">
+                <div className='col-md-6 p-0'>
+                    <div className='logo_div'>
+                        <div>
+                            <div className='img_div_logo'>
+                                <img src='/images/saturn.png' alt='images' />
+                            </div>
+                            <div>
+                                <h3 className='div_text'>Be part of our awesome team and <br /> have fun with us</h3>
+                            </div>
+                            <div className='img_div_logoo'>
+                                <img src='/images/rocket (1).png' alt='images' />
                             </div>
                         </div>
                     </div>
-
-                    :
-                    <div className="container-fluid overflow-hidden">
-                        <div className="row row_signin_pagess">
-                            <div className='col-md-6 p-0'>
-                                <div className='logo_div'>
-                                    <div>
-                                        <div className='img_div_logo'>
-                                            <img src='/images/saturn.png' alt='images' />
-                                        </div>
-                                        <div>
-                                            <h3 className='div_text'>Be part of our awesome team and <br /> have fun with us</h3>
-                                        </div>
-                                        <div className='img_div_logoo'>
-                                            <img src='/images/rocket (1).png' alt='images' />
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
+                <div className='col-md-6 p-0'>
+                    <div className='from_div'>
+                        <div>
+                            <div className='link_button'>
+                                <Link className='sign_in_button' to="/signin">Sign in</Link>
+                                <Link className='sign_up_button' to="/signup">Sign Up</Link>
                             </div>
-                            <div className='col-md-6 p-0'>
-                                <div className='from_div'>
-                                    <div>
-                                        <div className='link_button'>
-                                            <Link className='sign_in_button' to="/signin">Sign in</Link>
-                                            <Link className='sign_up_button' to="/signup">Sign Up</Link>
-                                        </div>
 
-                                        <div className='fromm_div'>
-                                            <div>
-                                                <h1 className='login_div_text'>Login in your account</h1>
-                                            </div>
-                                            <form onSubmit={signinonsub}>
-                                                <div className="form-group form-groupp">
-                                                    <input type="email" name="email" value={signin.email} onChange={signinlogin} className="form-control form-controll" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                                </div>
-                                                <div className="form-group form-groupp">
-                                                    <input type="password" name="password" value={signin.password} onChange={signinlogin} className="form-control form-controll" id="exampleInputPassword1" placeholder="Password" />
-                                                </div>
-                                                <button type="submit" className="signn_in_button">Submit</button>
-                                            </form>
-                                        </div>
-                                    </div>
+                            <div className='fromm_div'>
+                                <div>
+                                    <h1 className='login_div_text'>Login in your account</h1>
                                 </div>
+                                <form onSubmit={signinonsub}>
+                                    <div className="form-group form-groupp">
+                                        <input type="email" name="email" value={signin.email} onChange={signinlogin} className="form-control form-controll" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                                    </div>
+                                    <div className="form-group form-groupp">
+                                        <input type="password" name="password" value={signin.password} onChange={signinlogin} className="form-control form-controll" id="exampleInputPassword1" placeholder="Password" />
+                                    </div>
+                                    <button type="submit" className="signn_in_button">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>
-            }
+                </div>
+            </div>
         </div>
     )
 }

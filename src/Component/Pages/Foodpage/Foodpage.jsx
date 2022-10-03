@@ -14,14 +14,11 @@ const Foodpage = () => {
 
     const [foodtopblog, setFoodtopblog] = useState([])
 
+   
+
     const FoodBlogTop = async () => {
 
-
-        const body = {
-            category:"Food blogs"
-        }
-
-         const res = await axios.get(`${BaseUrl}/blog/categoryWiseTopBlog`,body)
+         const res = await axios.get(`${BaseUrl}/blog/categoryWiseTopBlog`)
          .then((res) => {
             console.log("::::::FOODBLOG",res);
             setFoodtopblog(res)
